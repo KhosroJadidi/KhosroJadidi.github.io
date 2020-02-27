@@ -74,46 +74,7 @@ h6 {
     font-size: 13px;
 }
 
-@media (min-width: 768px) {
-    header {
-        display: inline-block;
-    }
-    
-    .footer-icons {
-        display: block;
-    }
-
-    .introduction{
-        font-size: 2em;
-    }
-
-    .header-list{
-        font-size: 2em;
-    }
-
-    .mainBody{
-        padding-top: 230px;
-        
-    }
-
-    .mainBody>div>ul>li>h6{
-        font-size: 1.2em;
-    }
-
-    .mainBody>div>ul>li>h6{
-        font-size: 1em;
-    }
-
-    .mainBody>div>ul>li>h5{
-        font-size: 1.1em;
-    }
-
-    nav>h1{
-        font-size: 2em;
-    }
-}
-
-@media(min-width: 600px){
+@media(min-width: 300px) and (max-width: 1000px){
     .introduction{
         font-size: 1.5em;
     }
