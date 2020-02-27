@@ -74,7 +74,7 @@ h6 {
     font-size: 13px;
 }
 
-@media (aspect-ratio:16/9) {
+@media (min-width: 768px) {
     header {
         display: inline-block;
     }
@@ -93,6 +93,7 @@ h6 {
 
     .mainBody{
         padding-top: 230px;
+        
     }
 
     .mainBody>div>ul>li>h6{
@@ -112,29 +113,9 @@ h6 {
     }
 }
 
-
-/*Galaxy S5*/
-@media(device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){
+@media(min-width: 600px){
     .introduction{
-        font-size: 2em;
-    }
-
-    .header-list{
-        font-size: 2em;
-    }
-
-    .mainBody{
-        padding-top: 230px;
-    }
-
-    nav>h1{
-        font-size: 2em;
-    }
-}
-
-@media(device-width: 900px) and (device-height: 1600px){
-    .introduction{
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .header-list{
